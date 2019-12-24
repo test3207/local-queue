@@ -18,14 +18,6 @@ module.exports = class extends EventEmitter {
         !this._close && this.queue.length && this.emit('ready')
       }
     })
-    
-    this.on('loop', async () => {
-      await new Promise((resolve, reject) => {
-        setTimeout(() => { resolve() }, 0)
-      })
-      !this._close && this.emit('start')
-    })
-    this.emit('loop')
   }
 
   add (job) {
