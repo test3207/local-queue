@@ -1,0 +1,15 @@
+{
+  "name": "local-queue",
+  "version": "0.0.1",
+  "description": "A simple local-queue based on memory which suits simple single instance project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:test3207/local-queue.git"
+  },
+  "author": "test3207<test3207@outlook.com>",
+  "license": "MIT"
+}
