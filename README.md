@@ -1,5 +1,7 @@
 # local-queue
 
+[简体中文](https://github.com/test3207/local-queue/blob/master/README.zh-CN.md)
+
 ## Introduction
 
 A simple local-queue based on memory which suits simple single instance project.

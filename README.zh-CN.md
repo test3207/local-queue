@@ -1,5 +1,7 @@
 # 本地队列
 
+[English](https://github.com/test3207/local-queue/blob/master/README.md)
+
 ## 介绍
 
 基于内存的本地任务队列，适用于简单的单例项目；如果有多副本的需求，请考虑使用redis的[bull](https://github.com/OptimalBits/bull)（或者对bull的一个[简单封装](https://github.com/test3207/queue-manager)）
