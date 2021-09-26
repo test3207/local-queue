@@ -1,6 +1,6 @@
 {
   "name": "local-queue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple local-queue based on memory which suits simple single instance project.",
   "main": "index.js",
   "scripts": {
